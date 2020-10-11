@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>DNetPlus_Interactive</RootNamespace>
+    <Authors>xXBuilderBXx</Authors>
+    <Company>Fluxpoint Development</Company>
+  </PropertyGroup>
+
+</Project>
