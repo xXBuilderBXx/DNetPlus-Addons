@@ -2,9 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <RootNamespace>DNetPlus_Interactive</RootNamespace>
-    <Authors>xXBuilderBXx</Authors>
-    <Company>Fluxpoint Development</Company>
+    <RootNamespace>DNetPlus_TranslationBase</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
