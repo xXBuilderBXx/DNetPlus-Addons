@@ -8,3 +8,7 @@ You can install these addons alongside DNetPlus to enhance the library or add fe
 
 Allows for paginated commands and interactive commands for things like a setup or asking for parameters after a command.
 https://www.nuget.org/packages/DNetPlus-Interactive/
+
+### Translation Base
+Allows you to extend the discord.net command base with translation support including modules too.
+Coming Soon.
