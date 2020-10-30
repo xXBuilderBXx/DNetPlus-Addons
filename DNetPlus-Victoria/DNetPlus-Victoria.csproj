@@ -3,8 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <RootNamespace>DNetPlus_Victoria</RootNamespace>
-    <Authors>xXBuilderBXx</Authors>
+    <Authors>xXBuilderBXx;Yucked</Authors>
     <Company>Fluxpoint Development</Company>
+    <Version>1.1.0</Version>
+    <Description>Addon package for DNetPlus that allows support for the Victoria lavalink lib by Yucked.</Description>
+    <RepositoryUrl>https://github.com/xXBuilderBXx/DNetPlus-Addons</RepositoryUrl>
+    <PackageReleaseNotes>Updated package description and info.</PackageReleaseNotes>
+    <PackageTags>discord;discordapp;discordlib;dnetplus;dnetplusaddon;victoria</PackageTags>
+    <PackageProjectUrl>https://github.com/xXBuilderBXx/DNetPlus</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>

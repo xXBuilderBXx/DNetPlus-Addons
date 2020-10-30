@@ -3,6 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <RootNamespace>DNetPlus_TranslationBase</RootNamespace>
+    <Authors>xXBuilderBXx</Authors>
+    <Company>Fluxpoint Development</Company>
+    <Version>1.1.0</Version>
+    <Description>Addon package for DNetPlus that gives basic support for translations and command base.</Description>
+    <RepositoryUrl>https://github.com/xXBuilderBXx/DNetPlus-Addons</RepositoryUrl>
+    <PackageReleaseNotes>Updated package description and info.</PackageReleaseNotes>
+    <PackageTags>discord;discordapp;discordlib;dnetplus;dnetplusaddon;translations</PackageTags>
+    <PackageProjectUrl>https://github.com/xXBuilderBXx/DNetPlus</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>

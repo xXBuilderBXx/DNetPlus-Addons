@@ -3,6 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <RootNamespace>DNetPlus_BotListAPI</RootNamespace>
+    <Authors>xXBuilderBXx</Authors>
+    <Company>Fluxpoint Development</Company>
+    <Version>1.1.0</Version>
+    <Description>Addon package for DNetPlus that allows support for the BotListAPI lib for posting server count to bot list websites.</Description>
+    <RepositoryUrl>https://github.com/xXBuilderBXx/DNetPlus-Addons</RepositoryUrl>
+    <PackageReleaseNotes>Updated package description and info.</PackageReleaseNotes>
+    <PackageTags>discord;discordapp;discordlib;dnetplus;dnetplusaddon;botlist;botlistapi;botblock</PackageTags>
+    <PackageProjectUrl>https://github.com/xXBuilderBXx/DNetPlus</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>

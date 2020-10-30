@@ -3,10 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <RootNamespace>DNetPlus_Interactive</RootNamespace>
-    <Authors>xXBuilderBXx</Authors>
+    <Authors>xXBuilderBXx;Foxbot</Authors>
     <Company>Fluxpoint Development</Company>
-    <Version>1.0.1</Version>
-    <PackageReleaseNotes>Update to DNetPlus 1.2.0</PackageReleaseNotes>
+    <Version>1.1.0</Version>
+    <PackageReleaseNotes>Updated package description and info.</PackageReleaseNotes>
+    <Description>Addon package for DNetPlus that allows support for interactive commands from the Interactive lib by Foxbot.</Description>
+    <RepositoryUrl>https://github.com/xXBuilderBXx/DNetPlus-Addons</RepositoryUrl>
+    <PackageTags>discord;discordapp;discordlib;dnetplus;dnetplusaddon;interactive</PackageTags>
+    <PackageProjectUrl>https://github.com/xXBuilderBXx/DNetPlus</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
