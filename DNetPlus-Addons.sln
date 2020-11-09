@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DNetPlus-TranslationBase", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DNetPlus-Victoria", "DNetPlus-Victoria\DNetPlus-Victoria.csproj", "{DF8DD4FA-5983-452A-BDBD-A043909B9BF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNetPlus-BotListAPI", "DNetPlus-BotListAPI\DNetPlus-BotListAPI.csproj", "{511439C2-441E-4F2E-ADAA-501409D209C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DNetPlus-BotListAPI", "DNetPlus-BotListAPI\DNetPlus-BotListAPI.csproj", "{511439C2-441E-4F2E-ADAA-501409D209C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNetPlus-Interactivity", "DNetPlus-Interactivity\DNetPlus-Interactivity.csproj", "{0451261A-FC9D-40A1-84AE-A50C9BADCE9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{511439C2-441E-4F2E-ADAA-501409D209C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{511439C2-441E-4F2E-ADAA-501409D209C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{511439C2-441E-4F2E-ADAA-501409D209C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0451261A-FC9D-40A1-84AE-A50C9BADCE9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0451261A-FC9D-40A1-84AE-A50C9BADCE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0451261A-FC9D-40A1-84AE-A50C9BADCE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0451261A-FC9D-40A1-84AE-A50C9BADCE9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

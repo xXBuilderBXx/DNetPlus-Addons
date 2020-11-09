@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>DNetPlus_Interactivity</RootNamespace>
+    <Authors>xXBuilderBXx;Playwo</Authors>
+    <Company>Fluxpoint Development</Company>
+    <Description>Addon package for DNetPlus that allows for interactive commands, reactions and pagination by Playwo.</Description>
+    <RepositoryUrl>https://github.com/xXBuilderBXx/DNetPlus-Addons</RepositoryUrl>
+    <PackageTags>discord;discordapp;discordlib;dnetplus;dnetplusaddon;interactivity</PackageTags>
+    <PackageReleaseNotes>First release.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DNetPlus" Version="1.2.0" />
+    <PackageReference Include="Qommon" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
