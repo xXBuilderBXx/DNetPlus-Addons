@@ -74,7 +74,7 @@ namespace BotListAPI
                 _ = SendBotBlock(LogType);
         }
 
-        public readonly string Version = "5.0";
+        public readonly string Version = "1.1.1";
 
         /// <summary> Post server count to BotBlock.org </summary>
         public async Task SendBotBlock(LogType type)

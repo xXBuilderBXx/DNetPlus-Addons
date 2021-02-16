@@ -5,7 +5,7 @@
     <RootNamespace>DNetPlus_BotListAPI</RootNamespace>
     <Authors>xXBuilderBXx</Authors>
     <Company>Fluxpoint Development</Company>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
     <Description>Addon package for DNetPlus that allows support for the BotListAPI lib for posting server count to bot list websites.</Description>
     <RepositoryUrl>https://github.com/xXBuilderBXx/DNetPlus-Addons</RepositoryUrl>
     <PackageReleaseNotes>Updated package description and info.</PackageReleaseNotes>
