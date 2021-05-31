@@ -7,7 +7,9 @@ You can install these addons alongside DNetPlus to enhance the library or add fe
 - [Discord Interactive](https://www.nuget.org/packages/DNetPlus-Interactive) by [Foxbot](https://github.com/foxbot/Discord.Addons.Interactive) v2.2
 
 Allows for paginated commands and interactive commands for things like a setup or asking for parameters after a command.
-https://www.nuget.org/packages/DNetPlus-Interactive/
+
+### Victoria
+= [Victoria](https://github.com/Yucked/Victoria) by [Yucked](https://github.com/Yucked)
 
 ### Translation Base
 Allows you to extend the discord.net command base with translation support including modules too.
