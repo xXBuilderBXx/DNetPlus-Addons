@@ -29,7 +29,7 @@ namespace DNetPlus_InteractiveButtons
            // _defaultTimeout = config.DefaultTimeout;
         }
 
-        public Task<InteractionData> NextButtonAsync(SocketCommandContext context, IUserMessage currentMessage,
+        public Task<InteractiveButtonData> NextButtonAsync(SocketCommandContext context, IUserMessage currentMessage,
            bool fromSourceUser = true,
            TimeSpan? timeout = null,
            CancellationToken token = default(CancellationToken))
@@ -37,19 +37,37 @@ namespace DNetPlus_InteractiveButtons
             var criterion = new Criteria<SocketMessage>();
             if (fromSourceUser)
                 criterion.AddCriterion(new EnsureFromUserCriterion(context.User.Id));
-            //if (inSourceChannel)
-            //    criterion.AddCriterion(new EnsureSourceChannelCriterion());
             return NextButtonAsync(context, currentMessage, criterion, timeout, token);
         }
 
-        public async Task<InteractionData> NextButtonAsync(SocketCommandContext context, IUserMessage currentMessage,
+        public Task<InteractiveButtonData> NextButtonAsync(SocketCommandContext context, IUserMessage currentMessage,
+           IUser user,
+           TimeSpan? timeout = null,
+           CancellationToken token = default(CancellationToken))
+        {
+            var criterion = new Criteria<SocketMessage>();
+                criterion.AddCriterion(new EnsureFromUserCriterion(user));
+            return NextButtonAsync(context, currentMessage, criterion, timeout, token);
+        }
+
+        public Task<InteractiveButtonData> NextButtonAsync(SocketCommandContext context, IUserMessage currentMessage,
+          GuildPermission perm,
+          TimeSpan? timeout = null,
+          CancellationToken token = default(CancellationToken))
+        {
+            var criterion = new Criteria<SocketMessage>();
+            criterion.AddCriterion(new EnsureGuildPermissionCriterion(perm));
+            return NextButtonAsync(context, currentMessage, criterion, timeout, token);
+        }
+
+        public async Task<InteractiveButtonData> NextButtonAsync(SocketCommandContext context, IUserMessage currentMessage,
             ICriterion<SocketMessage> criterion,
             TimeSpan? timeout = null,
             CancellationToken token = default(CancellationToken))
         {
             timeout = timeout ?? _defaultTimeout;
 
-            var eventTrigger = new TaskCompletionSource<InteractionData>();
+            var eventTrigger = new TaskCompletionSource<InteractiveButtonData>();
             var cancelTrigger = new TaskCompletionSource<bool>();
 
             token.Register(() => cancelTrigger.SetResult(true));
@@ -57,8 +75,12 @@ namespace DNetPlus_InteractiveButtons
             async Task Handler(Interaction interaction)
             {
                     bool result = await criterion.JudgeAsync(context, interaction).ConfigureAwait(false);
-                    if (result)
-                        eventTrigger.SetResult(interaction.Data);
+                if (result)
+                {
+                    InteractiveButtonData data = new InteractiveButtonData();
+                    data.Update(interaction.Data, interaction.User);
+                    eventTrigger.SetResult(data);
+                }
             }
 
             context.Client.InteractionReceived += Handler;

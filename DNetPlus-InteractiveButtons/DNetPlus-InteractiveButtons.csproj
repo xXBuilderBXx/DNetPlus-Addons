@@ -3,7 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <RootNamespace>DNetPlus_InteractiveButtons</RootNamespace>
-    <Version>1.1.0</Version>
+    <Version>1.1.4</Version>
+    <PackageReleaseNotes>Added support for interactive buttons that check a certain user or guild permission.</PackageReleaseNotes>
+    <Authors>xXBuilderBXx</Authors>
+    <Company>Fluxpoint Development</Company>
+    <Description>Simple interactive package for dnetplus that allows you to respond to wait for button presses.</Description>
+    <RepositoryUrl>https://github.com/xXBuilderBXx/DNetPlus-Addons</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/xXBuilderBXx/DNetPlus-Addons</PackageProjectUrl>
+    <PackageTags>discord,discordapp,dnetplus</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
