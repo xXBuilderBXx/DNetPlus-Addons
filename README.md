@@ -16,3 +16,6 @@ A lib for C# bots to connect to a lavalink music server for playing music in voi
 ### Translation Base
 Allows you to extend the discord.net command base with translation support including modules too.
 Coming Soon.
+
+# Other
+[![Widget](https://discordservices.net/bot/434556304661544960/widget.svg?v=2)](https://dbot.page/waifu)
